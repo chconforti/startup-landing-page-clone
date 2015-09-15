@@ -1,0 +1,38 @@
+body {
+	background-color: LightGray;
+}
+
+div {
+	border 1px solid Chocolate;
+}
+
+header {
+	color: white;
+}
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	}
+
+.conent {
+	padding: 0px 15px;
+}
+
+.logo {
+	margin-left: 14px;
+	height: 70px;
+}
+
+.nav_buttons {
+	float: right;
+}
+
+.nav_buttons li {
+	display: inline-block;
+}
