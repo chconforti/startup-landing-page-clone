@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background-color: LightGray;
 }
@@ -29,15 +36,22 @@ header {
 	height: 70px;
 }
 
-.nav_buttons {
+.top-navigation .nav_buttons {
 	float: right;
-}
-
-.nav_buttons li {
-	display: inline-block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
+	margin-top: 25px;
+
+}
+
+.top-navigation .nav_buttons > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.nav_buttons li {
+	display: inline-block;	
 	letter-spacing: 0.03em;
-	margin-left: 10px;
+	margin-left: 25px;
 }
