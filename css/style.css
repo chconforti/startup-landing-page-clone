@@ -42,6 +42,7 @@ header {
 	font-size: 16px;
 	color: #838994;
 	margin-top: 25px;
+	li:hover ;
 }
 
 .top-navigation .nav_buttons > .active {
@@ -53,4 +54,8 @@ header {
 	display: inline-block;	
 	letter-spacing: 0.03em;
 	margin-left: 25px;
+}
+
+.top-navigation .nav_buttons li:hover {
+	color: black;
 }
