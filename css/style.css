@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -32,7 +33,6 @@ header {
 }
 
 .top-navigation .content .logo {
-	margin-left: 14px;
 	height: 70px;
 }
 
@@ -42,7 +42,6 @@ header {
 	font-size: 16px;
 	color: #838994;
 	margin-top: 25px;
-
 }
 
 .top-navigation .nav_buttons > .active {
