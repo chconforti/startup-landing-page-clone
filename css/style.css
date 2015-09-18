@@ -1,13 +1,16 @@
 html {
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-}
+  }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -28,34 +31,80 @@ header {
 	margin: 0 auto;
 	}
 
-.conent {
+.top-navigation .content {
 	padding: 0px 15px;
 }
 
 .top-navigation .content .logo {
 	height: 70px;
+	width: 26px;
 }
 
 .top-navigation .nav_buttons {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	margin-top: 25px;
-	li:hover ;
 }
 
 .top-navigation .nav_buttons > .active {
 	color: #4c5058;
 	font-weight: 500;
+	
 }
 
 .nav_buttons li {
 	display: inline-block;	
 	letter-spacing: 0.03em;
 	margin-left: 25px;
+	font-size: 16px;
 }
 
 .top-navigation .nav_buttons li:hover {
 	color: black;
+	cursor: pointer;
+}
+
+.introduction {
+	background-image: url(../images/background-copy.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	height: 670px;
+
+}
+
+.introduction .content {
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.introduction h1, h3 {
+	font-weight: 300;
+}
+
+.introduction h1 {
+	font-size: 48px;
+}
+
+.introduction h3 {
+	font-size: 25px;
+	margin-top: -30px;
+}
+
+button {
+	width: 9.66em;
+	height: 50px;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 4px;
+	text-shadow: none;
+	border-style: none;
+}
+
+button:hover {
+	background: #d9400e;
+	cursor: pointer;
 }
