@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
@@ -23,6 +23,10 @@ header {
 
 .top-navigation {
 	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 .top-navigation > .content {
@@ -71,14 +75,14 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: auto;
-	height: 670px;
+	height: 750px;
 
 }
 
 .introduction .content {
 	color: white;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 280px;
 }
 
 .introduction h1, h3 {
@@ -86,13 +90,13 @@ header {
 }
 
 .introduction h1 {
-	font-size: 48px;
+	font-size: 51px;
+	margin-bottom: 15px;
 }
 
 .introduction h3 {
 	font-size: 25px;
-	margin-top: -30px;
-}
+}	
 
 button {
 	width: 9.66em;
@@ -107,4 +111,36 @@ button {
 button:hover {
 	background: #d9400e;
 	cursor: pointer;
+}
+
+.cases .content {
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+.cases .content h2{
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.cases .devices > li {
+	margin-bottom: 100px;
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.cases .content h3 {
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.social .content h5 {
+	text-align: center;
+}
+
+.social .icons > li {
+	text-align: center;
+	border-radius: 4px;
+	display: inline-block;
 }
