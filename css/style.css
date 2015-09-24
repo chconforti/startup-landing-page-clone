@@ -135,12 +135,36 @@ button:hover {
 	font-size: 25px;
 }
 
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 10px 275px;
+}
+
 .social .content h5 {
 	text-align: center;
 }
 
 .social .icons > li {
-	text-align: center;
-	border-radius: 4px;
+	border-radius: 100px;
+	border: 1px solid #DDD;
 	display: inline-block;
+	margin-right: 3px;
+	margin: 5px;
+}
+
+.social ul {
+	text-align: center;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
 }
