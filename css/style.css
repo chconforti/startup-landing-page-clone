@@ -116,7 +116,6 @@ button:hover {
 .cases .content {
 	text-align: center;
 	margin-top: 150px;
-
 }
 
 .cases .content h2{
@@ -135,26 +134,25 @@ button:hover {
 	font-size: 25px;
 }
 
+.social {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.social h5 {
+	font-family: inherit;
+}
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 10px 275px;
-}
-
-.social .content h5 {
-	text-align: center;
-}
+	margin-top: -40px;
+	}
 
 .social .icons > li {
 	border-radius: 100px;
 	border: 1px solid #DDD;
 	display: inline-block;
-	margin-right: 3px;
-	margin: 5px;
-}
-
-.social ul {
-	text-align: center;
 }
 
 .social .twitter {
@@ -167,4 +165,10 @@ button:hover {
 
 .social .instagram {
 	color: #3f729b;
+}
+
+.social .copy {
+	font-size: 12px;
+	font-weight: 300;
+	color: #838994;
 }
