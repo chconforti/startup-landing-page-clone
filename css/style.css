@@ -139,9 +139,10 @@ button:hover {
 	padding-bottom: 100px;
 }
 
-.social h5 {
+.social > h5 {
 	font-family: inherit;
 }
+
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
@@ -149,10 +150,20 @@ button:hover {
 	margin-top: -40px;
 	}
 
+.social ul {
+	margin: 0;
+	padding: 0;
+}
+
 .social .icons > li {
-	border-radius: 100px;
+	margin-top: 4px;
+	border-radius: 40px;
 	border: 1px solid #DDD;
 	display: inline-block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	margin-bottom: 14px;
 }
 
 .social .twitter {
@@ -168,7 +179,7 @@ button:hover {
 }
 
 .social .copy {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 300;
 	color: #838994;
 }
