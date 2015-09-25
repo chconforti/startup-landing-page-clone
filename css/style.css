@@ -118,6 +118,11 @@ button:hover {
 	margin-top: 150px;
 }
 
+.cases .content ul {
+	margin: 0;
+	padding: 0;
+}
+
 .cases .content h2{
 	font-weight: 300;
 	font-size: 40px;
