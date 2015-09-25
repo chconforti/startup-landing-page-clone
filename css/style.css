@@ -139,16 +139,19 @@ button:hover {
 	padding-bottom: 100px;
 }
 
-.social > h5 {
-	font-family: inherit;
-}
-
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 10px 275px;
-	margin-top: -40px;
-	}
+	margin-top: -30px;
+}
+
+.social .content > h5 {
+	font-family: inherit;
+	font-size: 17px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
 
 .social ul {
 	margin: 0;
@@ -163,7 +166,7 @@ button:hover {
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
-	margin-bottom: 14px;
+	margin-bottom: 18px;
 }
 
 .social .twitter {
